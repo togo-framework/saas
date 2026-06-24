@@ -1,0 +1,8 @@
+name: Feature request
+description: Suggest an improvement for this togo plugin
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes: { label: What would you like?, description: The capability or change you want and why. }
+    validations: { required: true }
